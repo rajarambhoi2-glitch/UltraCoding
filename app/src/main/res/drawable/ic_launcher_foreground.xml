@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Code bracket left: < -->
+    <path
+        android:pathData="M 40,36 L 26,54 L 40,72 L 44,68 L 33,54 L 44,40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="36"
+                android:endX="44"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#0284C7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Code bracket right: > -->
+    <path
+        android:pathData="M 68,36 L 82,54 L 68,72 L 64,68 L 75,54 L 64,40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="64"
+                android:startY="36"
+                android:endX="82"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#818CF8" />
+                <item android:offset="1.0" android:color="#4F46E5" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Slash: / -->
+    <path
+        android:pathData="M 59,32 L 64,33 L 49,76 L 44,75 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="32"
+                android:endX="64"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#A78BFA" />
+                <item android:offset="1.0" android:color="#38BDF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- AI Sparkle node on top right -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M 72,28 Q 72,34 78,34 Q 72,34 72,40 Q 72,34 66,34 Q 72,34 72,28 Z" />
+</vector>

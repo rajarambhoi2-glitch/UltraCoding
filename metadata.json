@@ -1,0 +1,6 @@
+{
+  "name": "CodeForge AI",
+  "description": "Mobile code editor with AI bug finder, quick-fix diff engine, wrong code identifier, and live preview",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
